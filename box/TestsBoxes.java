@@ -1,5 +1,6 @@
-// import org.junit.*;
-// import static org.junit.Assert.assertEquals;
+import org.junit.*;
+import static org.junit.Assert.assertEquals;
+import org.junit.runner.Runner;
 
 public class TestsBoxes{
     @Test
@@ -13,7 +14,7 @@ public class TestsBoxes{
         b.add(new Thing("truc1"));
         b.add(new Thing("truc2"));
     }
-    // System.out.println(b.actionLook());
+    System.out.println(b.actionLook());
     public static void main(String[] args) {
         Box j = Box.fromJSON();
     j.add(new Thing("truc1"));
