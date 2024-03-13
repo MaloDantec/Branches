@@ -1,7 +1,6 @@
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
-import com.google.gson.Gson;
 
 class Thing{
 
